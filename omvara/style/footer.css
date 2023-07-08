@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.footer{
+    background: #215558;
+    height: 100%;
+    width: 100%;
+}
+.footer-con{
+    width: 100%;
+}
+.foot-logo{
+    border-right: 1px solid white;
+    padding: 0 !important;
+}
+.foot-logo img{
+    width: 170px;
+    height: 100px;
+    padding: 40px 0 0 60px!important;
+}
+.foot-links{
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+}
+.foot-service{
+    padding-top: 40px;
+    padding-left: 100px;
+    width: 50%;
+}
+.foot-pages{ 
+    padding-top: 30px;
+    padding-left: 15%;
+    width: 50%;
+}
+.foot-service ul,.foot-pages ul{
+    list-style: none;
+    padding-left: 0%;
+}
+.foot-service h5,.foot-pages h5{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+.foot-service ul li ,.foot-pages ul li {
+    padding-top: 5px;
+}
+.foot-service ul li a,.foot-pages ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.icon{
+    display: flex;
+    margin-top: 20px;
+    padding: 15px 0 15px 50px;
+    column-gap: 20px;
+    border-top: 1px solid white;
+    margin-top: 60px;
+}
+.icon i{
+    font-size: 20px;
+    background-color: white;
+    padding: 11px 12px;
+    color: #215558;
+    border-radius: 50%;
+}
+.footer h6{
+    color: white;
+    /* padding: 3% 5% 2% 5%; */
+    font-size: 14px;
+    font-weight: 300;
+    /* text-align: center; */
+}
+
+.foot-service{
+    border-right: 1px solid white;
+}
+
+.copy{
+    border-top: 1px solid white;
+    padding: 20px 0 20px 40px;
+}
+
+@media (max-width:767px){
+    
+    .icon {
+        padding: 50px 0 15px 50px;
+    }
+    .foot-service {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:576px){
+    .footer-con{
+        display: block !important;
+    }
+    .foot-links{
+        margin:5% 0 0 3% !important;
+    }
+    .footer {
+        padding: 8% 7%;
+    }
+    .foot-logo img {
+        width: 200px;
+        height: 100px;
+        padding: 40px 0 0 20px!important;
+    }
+    .foot-logo {
+        border: none;
+    }
+    .icon {
+        padding: 0px 0 15px 20px;
+        border-top: none;
+        margin-top: 30px;
+    }
+    .foot-service {
+        padding-left: 0px;
+        border-right: none;
+    }
+    .copy {
+        border-top: none;
+        padding: 20px 0 20px 0px;
+    }
+    .navbar-nav{
+        width: 100%;
+    }
+}
+
